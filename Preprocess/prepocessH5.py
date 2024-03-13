@@ -40,6 +40,7 @@ def get_all_data(basedir, ext='.h5'):
     # Write the DataFrame to a CSV file
     df.to_csv('your_output.csv', index=False)
 
-# Usage
-basedir = "dataset"  # Update this to your dataset directory
-get_all_data(basedir) 
+def main():
+    # Usage
+    basedir = "dataset"  # Update this to your dataset directory
+    get_all_data(basedir) 
